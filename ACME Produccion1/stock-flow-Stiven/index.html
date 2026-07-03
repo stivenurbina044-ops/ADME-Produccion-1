@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="login-container"></div>
+
+        <h2>Poratl de Bienvenida</h2>
+
+        <form id="loginForm">
+            <input type="text" id="logId" placeholder="Numero de identificacion" required>
+
+        <select id="regCargo" required>
+            <option value="">Selecciona un cargo</option>
+            <option>Administrador</option>
+            <option>Operador</option>
+            <option>Supervisor</option>
+        </select>
+
+            <input type="password" id="regPass" placeholder="Ingrese su contraseña" required>
+            <input type="password" id="regPassConfirn" placeholder="Confirma Contraseña" required>
+
+            <button type="submit">Ingresar</button>
+
+            <div id="errorRegistro"></div>
+            <div id="exitoRegistro"></div>
+
+        </form>
+
+        <a href="registro.html"></a>
+        <button type="button">Registrarse</button>
+
+        <script src="main.js"></script>
+
+
+</body>
+</html>
